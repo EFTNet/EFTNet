@@ -16,6 +16,39 @@
 - torchvision 0.13.0
 - tensorboardX 2.2
 
+### Files Directory
+
+- root_path
+  ├── EFTNet/
+      ├── utils/
+      ├── initmodel/
+      ├── config/
+      ├── model/
+      ├── README.md
+      ├── meta_test.py
+      ├── EFT_weights/
+      │        ├── pascal/
+      │        │   ├── split0/   
+      │        │   │   ├── resnet101/     # weights of PASCAL-5^0
+      │        │   │   ├── resnet50/
+      │        │   │   └── vgg/
+      │        │   ├── split1/
+      │        │   ├── split2/
+      │        │   └── split3/      
+      │        └── coco/          # the same file structure for COCO
+      │
+      └── data/
+            ├── base_annotation/   # the scripts to create THIS folder
+            │   ├── pascal/
+            │   │   ├── train/   
+            │   │   │   ├── 0/     # annotations of PASCAL-5^0
+            │   │   │   ├── 1/
+            │   │   │   ├── 2/
+            │   │   │   └── 3/
+            │   │   └── val/      
+            │   └── coco/          # the same file structure for COCO
+            ├── VOCdevkit2012/
+            └── MSCOCO2014/
 
 ### Datasets
 
