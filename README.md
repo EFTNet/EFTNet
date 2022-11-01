@@ -4,7 +4,7 @@
 > **Abstract:** *Few-shot segmentation (FSS) aims to segment novel classes given a small number of labeled samples. Most of the existing studies do not fine-tune the model in meta testing, which biases the model towards the base classes and difficult to predict the novel classes. Other studies only use the support images for fine-tuning, which biases the model towards the support images rather than the target query images, especially when there is a large difference between the support and the query images. To alleviate these issues, we propose an efficient fine-tuning network (EFTNet) that uses the unlabeled query images and the pseudo labels to fine-tune the trained model parameters during meta-testing, which can bias the model towards the target query images. In addition, we design the queryto-support module, the support-to-query module, and the discrimination module to evaluate which fine-tuning round makes the model optimal. Moreover, the query-to-support module also takes the query images and their pseudo masks as part of the support images and support masks, which makes the prototypes contain query information and tend to get better predictions. Our method can be easily combined with existing studies and can greatly improve their models without redoing their meta-training phase. Plenty of experiments on PASCAL-5i and COCO-20i prove the effectiveness of our EFTNet. The EFTNet also achieves new state-of-the-art. Codes are in the supplemental material.*
 
 <p align="middle">
-  <img src="figure/Main.png">
+  <img src="figure/main.png">
 </p>
 
 ### Dependencies
